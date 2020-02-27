@@ -51,14 +51,14 @@ nav li a {
 .side {
   flex: 30%;
   background-color: #f1f1f1;
-  padding: 20px;
+  padding: 50px;
 }
 
 /* Main column */
 .main {
   flex: 70%;
   background-color: white;
-  padding: 20px;
+  padding: 50px;
 }
 
 .item1{
@@ -79,7 +79,7 @@ nav li a {
 img {
     background: white;
     padding: 10px;
-    width: 300px;
+    width: 500px;
     height: 500px;
     margin: 0;
   }
@@ -140,6 +140,7 @@ img {
 .column img {
   margin-top: 0;
   vertical-align: middle;
+  padding: 0px;
 }
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media only screen and (max-width: 800px) {
